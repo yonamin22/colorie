@@ -1,0 +1,15 @@
+
+.cf {
+    &:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+}
+@mixin cf {
+	&:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+}
