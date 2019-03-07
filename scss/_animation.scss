@@ -1,0 +1,62 @@
+
+main {
+    #site-top {
+        .contents-wrap {
+            animation: fadeIn 4s ease 0s 1 normal forwards;
+            .scroll {
+                animation: pyonpyon 2s ease-in-out 0s infinite normal forwards;
+            }
+            .global-nav {
+                li {
+                    transition: 0.3s;
+                    &:hover {
+                        transform: scale(1.1);
+                        opacity: 0.8;
+                    }
+                    &:hover > .under-line {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    #consept {
+        .consept_list {
+            li {
+                transition: 0.3s;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+    #tour {
+        .line {
+            p {
+                animation: nobita 2s linear 0s infinite normal forwards;
+            }
+        }
+    }
+    #feature {
+        .feature_list {
+            li {
+                transition: 0.3s;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+    footer {
+        .page-top {
+            animation: pyonpyon 2s ease-in-out 0s infinite normal forwards;
+        }
+        .global-nav {
+            li {
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
